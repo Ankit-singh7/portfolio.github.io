@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<script  type="text/javascript" src="converter.js"></script>
+<style>
+.main
+{
+width:500px;
+height:550px;
+border:1px solid black;
+margin:0px auto;
+margin-top:20px;
+background-color:yellow;
+}
+input
+{
+height:20px
+border-color:red solid;
+border-radius:10px;
+}
+.box
+{
+width:400px;
+margin-top:35px;
+margin-left:100px;
+
+}
+label{
+width:140px;
+float:left;
+margin-top:10px;
+font-size:20px;
+text-align:center;
+padding-bottom:0;
+font-style:italic;
+}
+
+
+</style>
+</head>
+<body>
+<div class="main">
+<h1 style="text-align:center">Unit Converter</h1>
+<div class="box">
+<label for name="kg">KiloGram:</label>
+<input type="number" oninput="kg()" onchange="kg()" name="kg" id="kg">
+</div>
+<div class="box">
+<label for name="hg">HectoGram:</label>
+<input type="number" oninput="hg()" onchange="hg()" name="hg" id="hg">
+</div>
+<div class="box">
+<label for name="Dg">DecaGram:</label>
+<input type="number" oninput="Dg()" onchange="Dg()" name="Dg" id="Dg">
+</div>
+<div class="box">
+<label for name="g">Gram:</label>
+<input type="number" oninput="g()" onchange="g()" name="g" id="g">
+</div>
+<div class="box">
+<label for name="dg">deciGram:</label>
+<input type="number" oninput="dg()" onchange="dg()" name="dg" id="dg">
+</div>
+<div class="box">
+<label for name="cg">CentiGram:</label>
+<input type="number" oninput="cg()" onchange="cg()" name="cg" id="cg">
+</div>
+<div class="box">
+<label for name="mg">MiliGram:</label>
+<input type="number" oninput="mg()" onchange="mg()" name="mg" id="mg">
+<div>
+</div>
+</body>
+</html>
