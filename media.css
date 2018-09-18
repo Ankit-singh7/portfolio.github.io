@@ -87,10 +87,18 @@
     
      .project-conatiner
   {
+   
+    
     margin-left:2px;
     width:100%;
   }
+  
 
+  .project-title
+  {
+    margin-top:4vw;
+    margin-bottom:5vw;
+  }
 
 .paragraph-div
 {
