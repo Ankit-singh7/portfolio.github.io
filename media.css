@@ -137,6 +137,7 @@
   .div1
   {
     background-color:#A37C27;
+    
   }
 
   .div2
@@ -602,10 +603,7 @@
 @media(max-width:540px)
 {
   
-    .link-container
-    {
-      display:none;
-    }
+   
   .profile-container
   {
     margin-left:12.5vw;
@@ -818,10 +816,7 @@
    }
 
      
-    .contact-footer
-    {
-      width:90vw;
-    }
+  
 
 }
 
