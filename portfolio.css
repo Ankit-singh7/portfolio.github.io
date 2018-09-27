@@ -38,7 +38,7 @@
 	width: 95vw;
 	margin-left:0px;
 	z-index:1;
-	border-bottom:1px solid cyan;
+	border-bottom:1px solid #404040;
 
 }
 
@@ -380,6 +380,17 @@ figcaption
     border:7px #00FFFF inset;
 }
 
+.project-title
+{
+	color:grey;
+	text-align:center;
+    font-weight:lighter;
+	margin-left:10px;
+	margin-top:3vw;
+	margin-bottom:4vw;
+	font-size:2rem;
+}
+
 
 .icon1
 {
@@ -455,6 +466,7 @@ figcaption
 {
 	color:white;
 	padding:5px;
+	font-weight:lighter;
 }
 
 .paragraph-div

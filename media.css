@@ -121,7 +121,7 @@
 
   .project-conatiner
   {
-    background-color:#008080;
+    background-color:#262626;
     width:100%;
     margin-left:0px;
   
@@ -137,6 +137,7 @@
   .div1
   {
     background-color:#A37C27;
+
     
   }
 
@@ -426,8 +427,8 @@
 
   .logo
   {
-    margin-top:4vw;
-    width:250px;
+    margin-top:3vw;
+    
     float:left;
   }
 
@@ -488,8 +489,8 @@
 
    .logo
   {
-    margin-top:5vw;
-    width:220px;
+    margin-top:4vw;
+    
   
   }
 
@@ -549,8 +550,8 @@
    .logo
    {
 
-    width:210px;
-    margin-top:7vw;
+    
+    margin-top:4vw;
    }
 
    .profile-image
@@ -640,8 +641,8 @@
       .logo
    {
 
-    width:200px;
-    margin-top:8vw;
+    
+    margin-top:4vw;
     margin-right:-2vw;
    }
 
@@ -722,8 +723,8 @@
         .logo
    {
 
-    width:195px;
-    margin-top:8vw;
+    
+    margin-top:4vw;
     margin-right:-2vw;
    }
 
@@ -761,8 +762,8 @@
          .logo
    {
 
-    width:190px;
-    margin-top:8vw;
+    
+    margin-top:4vw;
   
    }
     
@@ -815,7 +816,15 @@
      height:37vh;
    }
 
-     
+     .project-title
+     {
+      font-size:1.5rem;
+     }
+
+     .h3
+     {
+      font-size:1.5rem;
+     }
   
 
 }
@@ -845,8 +854,8 @@
            .logo
    {
 
-    width:185px;
-    margin-top:8vw;
+    
+    margin-top:5vw;
   
    }
 
@@ -905,8 +914,8 @@
            .logo
    {
 
-    width:160px;
-    margin-top:10vw;
+    
+    margin-top:6vw;
     margin-right:-5vw;
     padding-right:0px;
   
