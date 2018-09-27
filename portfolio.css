@@ -38,7 +38,7 @@
 	width: 95vw;
 	margin-left:0px;
 	z-index:1;
-	border-bottom:1px solid #404040;
+	border-bottom:1px solid #262626;
 
 }
 
@@ -200,7 +200,7 @@ h1
 h1:hover
 {
 	 
-	text-shadow:0 0 50px  #ff005b;
+	text-shadow:0 0 30px #008081;
 	transform:scale(1.1);
 
 	
@@ -513,20 +513,39 @@ figcaption
 }
 
 
+.footer-img
+{
+	height:9vh;
+}
+
+.logo-bottom
+{
+	margin-top:1vw;
+}
+
+.quote
+{
+	color:#7852A9;
+	  font-family: 'Montserrat Alternates', sans-serif;
+	 margin-bottom:3vw;
+	 font-size:1rem;
+	 margin-top:1vw;
+}
+
 .contact-footer
 {
-	background-color:#2B2B2B;
+	background:-webkit-linear-gradient(top,#2b2b2b 0%,black 100%);
 	width:95vw;
-	opacity:0.7;
-	text-align:center;
 	height:100%;
+	
+	text-align:center;
 }
 
 
 .contact-headings
 {
 	padding-top:10px;
-	color:white;
+	color:#7852A9;
 	font-family: 'Monoton', cursive;
 	letter-spacing:.6vw;
 	margin-bottom:4px;
@@ -537,7 +556,17 @@ figcaption
 .contact-information
 {
 	margin-top:0px;
-	color:cyan;
+	color:#008081;
 	font-family:'Montserrat Alternates', sans-serif;
     font-size:.8rem;
+    padding-bottom:2vw;
+}
+
+.copyright
+{
+   
+   color:#7852A9;
+	  font-family: 'Montserrat Alternates', sans-serif;
+	 padding-bottom:2vw;
+   font-size:.7rem;
 }
