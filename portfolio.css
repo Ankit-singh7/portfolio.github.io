@@ -212,7 +212,7 @@ h1:hover
 	letter-spacing:.7vw;
 	font-size:.9rem;
 	padding:0px 0px 0px 0px;
-	
+	color:#31AAC1;
 	margin-bottom:1vw;
 	margin-top:.2vw;
 		 	
@@ -232,7 +232,7 @@ h1:hover
 .two
 {
 	font-size:1.1rem;
-	color:red;
+	color:#008081;
 	
 }
 
@@ -283,10 +283,10 @@ h1:hover
 .interest-container
 {
     width:100%;
-	height:500px;
+	height:375px;
 	margin-right: .5vw;
     margin-left:.5vw;
-    background-color:#008080;
+    background-color:#008081;
     margin-bottom:1vw;
 }
 
@@ -294,7 +294,7 @@ h1:hover
 .nested-interest-container
 {   
     margin-bottom:1vw; 
-	background-color:#008080;
+	background-color:#008081;
     margin-top:1vw;
 	display:flex;
 	flex-wrap:wrap;
@@ -304,7 +304,7 @@ h1:hover
 
 .heading-3
 {
-    margin-top:4vw;
+    margin-top:2vw;
     margin-left:1.3vw;
     margin-bottom:.5vw;
     font-family: 'Montserrat Alternates', sans-serif;
