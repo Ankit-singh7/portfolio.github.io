@@ -100,8 +100,9 @@
 
 .nav-link
 {
-font-family: 'Audiowide', cursive;
+letter-spacing:2px;
 font-weight:lighter;
+
     transition: .3s ease-in;
 }
 
@@ -286,15 +287,17 @@ h1:hover
 	height:375px;
 	margin-right: .5vw;
     margin-left:.5vw;
-    background-color:#008081;
+    background-color:#444444;
     margin-bottom:1vw;
+    border-radius:25px;
+    box-shadow:0px 5px 20px 5px #222222;
 }
 
 
 .nested-interest-container
 {   
     margin-bottom:1vw; 
-	background-color:#008081;
+	background-color:#444444;
     margin-top:1vw;
 	display:flex;
 	flex-wrap:wrap;
@@ -556,7 +559,7 @@ figcaption
 .contact-information
 {
 	margin-top:0px;
-	color:#008081;
+	color:#7852A9;
 	font-family:'Montserrat Alternates', sans-serif;
     font-size:.8rem;
     padding-bottom:2vw;
