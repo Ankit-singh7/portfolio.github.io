@@ -1,9 +1,9 @@
-@media(min-width:1367px)
+@media(min-width:1366px)
 
 {
     :root
     {
-    font-size:25px;
+    font-size:20px;
     }
 
 
@@ -23,7 +23,7 @@
 
     h1
     {
-      font-size:1.9rem;
+      font-size:2.3rem;
     }
 
 
@@ -37,6 +37,44 @@
     {
       font-size:1rem;
     }
+/*
+    .link-foot-1
+    {
+      margin-top:5vw;
+    }
+
+    .link-foot-2
+    {
+      margin-top:10.9vw;
+    }
+
+     .link-foot-3
+    {
+      margin-top:9vw;
+    }
+*/
+
+
+
+}
+
+@media(min-width:1199px) and (max-width:1365px) 
+{
+ 
+
+    .link-foot-2
+    {
+      margin-top:15.4vw;
+    }
+
+
+   
+    .link-foot-3
+    {
+      margin-top:12vw;
+    }
+
+
 
 
 }
@@ -974,5 +1012,30 @@
         {
           margin-left:5vw;
         }
+
+
+
+
+  }
+
+
+  @media(min-width:320px)
+
+  {
+
+    .link-foot-1
+    {
+      margin-bottom:3vw;
+    }
+
+    .link-foot-1
+    {
+      margin-bottom:6vw;
+    }
+    .link-foot-1
+    {
+      margin-bottom:3vw;
+    }
+
 
   }
