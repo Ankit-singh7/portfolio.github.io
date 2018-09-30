@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif');
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Playfair+Display+SC');
 
 :root
 {
@@ -47,8 +48,7 @@
 .navbar-container {
 	display: flex;
 	flex-wrap: wrap;
-
-
+   
 
 }
 
@@ -67,6 +67,8 @@
 	flex-wrap: nowrap;
 	
 	margin: 15px 0;
+
+
 }
 
 
@@ -96,14 +98,16 @@
 	height:8vh;
     width:90vw;
 	text-align:right;
+
 }	 	
 
 .nav-link
 {
 letter-spacing:2px;
 font-weight:lighter;
+font-family: 'Playfair Display SC', serif;
+ transition: .3s ease-in;
 
-    transition: .3s ease-in;
 }
 
 
@@ -156,8 +160,9 @@ font-weight:lighter;
 {
    width:320px;
    height:320px;
-   border-radius:50%;
-   	 	
+   
+   	border-radius:50%; 
+
   
 }
 .name-container
@@ -182,7 +187,7 @@ font-weight:lighter;
 	padding-bottom:0px;
 	padding-left:0px;
     margin-top:4vw;
-		 
+		
 
 	
 }
@@ -195,6 +200,8 @@ h1
     text-align:center;
 	transition:.5s ease-in;
 	margin-bottom:0px;
+
+
 	
 }
 
@@ -226,6 +233,8 @@ h1:hover
 	font-size:.7rem;
 
 	margin-bottom:0px;
+
+   	 
 		 	
 
 }
@@ -248,7 +257,11 @@ h1:hover
     font-family: 'Montserrat Alternates', sans-serif;
 	font-size:1.2rem;
 	transition:1s ease-out;
-    border-bottom: white 1px solid ;
+     border-bottom:1px solid transparent;
+     border-image:linear-gradient(45deg,black,#ff0,#f0f,#00f,#0f0,black);
+     border-image-slice:1;
+
+
     
 }
 
@@ -275,7 +288,8 @@ h1:hover
 	color:white;
 	font-size:.8rem;
 	font-family: 'Noto Serif', serif;
-	font-weight: lighter;
+	
+	opacity:.7;
 	padding-top:0px;
     text-align:justify;
 
@@ -283,19 +297,25 @@ h1:hover
 
 .interest-container
 {
-    width:100%;
-	height:375px;
-	margin-right: .5vw;
-    margin-left:.5vw;
+    
+   
+    width:1500px;
+	height:400px;
+	margin-right: 4vw;
+    margin-left:4vw;
     background-color:#444444;
     margin-bottom:1vw;
     border-radius:25px;
-    box-shadow:0px 5px 20px 5px #222222;
+  box-shadow:0 25px 65px rgba(0,0,0,0.8);
+  transition:.5s
+
+    
 }
 
 
 .nested-interest-container
 {   
+      
     margin-bottom:1vw; 
 	background-color:#444444;
     margin-top:1vw;
@@ -307,6 +327,7 @@ h1:hover
 
 .heading-3
 {
+   
     margin-top:2vw;
     margin-left:1.3vw;
     margin-bottom:.5vw;
@@ -325,7 +346,7 @@ h1:hover
 
 .interest-icon
 {
-	 
+	
    background-size:cover;
    background-repeat:no-repeat;
    width:200px ;
@@ -333,7 +354,8 @@ h1:hover
    border-radius: 50%;
    margin-bottom:3vw;
    margin-left:12vw;
-   border:7px #00FFFF inset;
+   border:7px #6fc0ab inset;
+
 }
 
 
@@ -370,85 +392,79 @@ figcaption
     align-items: center;
 }
 
-
-.project-icon
+.container
 {
-    width:200px ;
-    height:200px;
-    border-radius: 50%;
-    margin-bottom:3vw;
-	margin-left:5vw;
-	margin-top:3vw;
-	background-size:cover;
-    border:7px #00FFFF inset;
+	 margin-top:3vw;
+
+	margin-bottom:4vw;
+	background-color:#444444;
+	border-radius:25px;
+    box-shadow:0 25px 65px rgba(0,0,0,0.8);
 }
 
 .project-title
 {
-	color:grey;
+	color:white;
 	text-align:center;
     font-weight:lighter;
 	margin-left:10px;
 	margin-top:3vw;
 	margin-bottom:4vw;
 	font-size:2rem;
-}
-
-
-.icon1
-{
-	background-image:url("Portfolio.jpg");
-}
-
-
-.icon2
-{
-	background-image:url("Calculator.png");
-}
-
-
-.icon3
-{
-	background-image:url("Kg.png");
-	background-size:cover;
-	background-color:#008B8B;
-}
-
-
-.project-conatiner
-{
-   margin-left:4.5vw;
-   width:90%;
-   height:100%;
-   display:flex;
-   flex-direction:column;
-   text-align:center;
+	padding-bottom:1vw;
+      border-bottom:2px solid transparent;
+     border-image:linear-gradient(45deg,black,#ff0,#f0f,#00f,#0f0,black);
+     border-image-slice:1;
 
 }
 
-.project
+
+
+
+
+
+
+
+.link-div
 {
-	display:flex;
-    position:relative;
 	
-	
-	flex: 7;
+	width:100%;
+    
+
 }
+ 
+
+
+ .link-foot-2
+ {
+ 	margin-top:7.5vw;
+ }
+    
+  .link-foot-3
+ {
+ 	margin-top:5.5vw;
+ }
+
 
 .a1
 {
-	color:cyan;
+	color:white;
 	text-decoration:none;
 	letter-spacing:.2vw;
 	border-bottom:none;
-	padding-right:1.3vw;
-	padding-left:1.3vw;
-    
+	padding-top:3px;
+	padding-right:60px;
+	padding-left:60px;
+	padding-bottom:3px;
+	margin-left:73px;
+	margin-bottom:2vw;
+    align-self: center;
 
-	
+
+	background:transparent;
 
 	font-family:'Monoton', cursive;
-	border:3px outset cyan;
+	border:2px outset white;
 	border-radius:5px;
 
 	width:0px;
@@ -456,13 +472,16 @@ figcaption
     transition: .3s ease-in;
 }
 
+
+
 .a1:hover
 {
-	box-shadow:4px 2px 40px  cyan;
-	border:1px solid none;
-	border-radius:5px;
+	
+
+	background-color:black;
 	text-decoration:none;
-	color:cyan;
+	color:white;
+	
 }
 
 .h3
@@ -470,6 +489,7 @@ figcaption
 	color:white;
 	padding:5px;
 	font-weight:lighter;
+	border-bottom:1px solid white;
 }
 
 .paragraph-div
@@ -523,7 +543,7 @@ figcaption
 
 .logo-bottom
 {
-	margin-top:1vw;
+	margin-top:2vw;
 }
 
 .quote
@@ -532,14 +552,14 @@ figcaption
 	  font-family: 'Montserrat Alternates', sans-serif;
 	 margin-bottom:3vw;
 	 font-size:1rem;
-	 margin-top:1vw;
+	 margin-top:1.5vw;
 }
 
 .contact-footer
 {
 	background:-webkit-linear-gradient(top,#2b2b2b 0%,black 100%);
 	width:95vw;
-	height:100%;
+	
 	
 	text-align:center;
 }
@@ -565,11 +585,79 @@ figcaption
     padding-bottom:2vw;
 }
 
+
+.social
+{
+	width:50px;
+	height:50px;
+	margin-right:10px;
+	opacity:.7;
+	margin-bottom:20px;
+	border-radius:50%;
+	transition:.5s ease-out ;
+}
+
+.social:hover
+{
+	
+	transform:scale(1.2);
+	border-color:purple;
+	opacity:.7;
+}
+
 .copyright
 {
    
    color:#7852A9;
 	  font-family: 'Montserrat Alternates', sans-serif;
-	 padding-bottom:2vw;
+	 
    font-size:.7rem;
+}
+
+.box
+{
+	
+    position:relative;
+	background-color:black;
+	border:13px solid #444444;
+	margin-bottom:2vw;
+	height:auto;
+	left:0;
+	right:0;
+
+     border-radius:30px;
+     padding-bottom:2vw;
+     padding-top:2vw  ;
+     
+     
+
+}
+
+.box1
+{
+
+	background-image:url("back.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	
+}
+
+.box2
+{
+	background-image:url("back2.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	
+}
+
+.box3
+{
+	background-image:url("back3.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+
+
 }

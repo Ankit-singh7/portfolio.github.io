@@ -43,7 +43,7 @@
 
 
 
-@media(max-width:1271px)
+@media(max-width:1273px)
 {
    
   
@@ -67,6 +67,7 @@
     {
     font-size:1.2rem;
     }
+
 
 }
 
@@ -134,22 +135,7 @@
       margin-right:2vw;
     }
 
-  .div1
-  {
-    background-color:#A37C27;
-
-    
-  }
-
-  .div2
-  {
-      background-color:#A7414A;
-  }
-
-  .div3
-  {
-    background-color:#563838;
-  }
+  
 
 }
 
@@ -769,18 +755,18 @@
     
     .profile-image
     {
-      width:310px;
-      height:310px;
+      width:300px;
+      height:300px;
     }
 
   .profile-container
   {
-    margin-left:8vw;
+    margin-left:10vw;
   }
 
     .heading
     {
-      margin-left:6vw;
+      margin-left:9vw;
   }   
 
 
@@ -830,6 +816,7 @@
 }
 
 
+
 @media(max-width:385px)
 {
 
@@ -842,7 +829,7 @@
 
   .heading
     {
-      margin-left:2vw;
+      margin-left:4vw;
   }
 
   .quote
