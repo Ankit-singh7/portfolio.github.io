@@ -19,7 +19,23 @@
 	margin:2vw;
 	height:100%;
 	width:95vw;
+	z-index:-1;
+	
 }
+
+
+#particles-js
+{
+	position:absolute;
+	top:0;
+	height:120vh;
+	width:95vw;
+	background-color:#2b2b2b;
+	z-index:0;
+	
+
+}
+
 
 .logo
 {
@@ -29,6 +45,8 @@
 	margin-left:0px;
 	margin-top:1.5vw;
 	align-self: left;
+	z-index:1;
+	
 }
 
 
@@ -40,6 +58,8 @@
 	margin-left:0px;
 	z-index:1;
 	border-bottom:1px solid #262626;
+	z-index:2;
+	
 
 }
 
@@ -48,6 +68,7 @@
 .navbar-container {
 	display: flex;
 	flex-wrap: wrap;
+	z-index:2;
    
 
 }
@@ -68,6 +89,7 @@
 	
 	margin: 15px 0;
 
+	z-index:2;
 
 }
 
@@ -131,6 +153,8 @@ font-family: 'Playfair Display SC', serif;
 	width:0px;
     font-size:.7rem;
     transition: .3s ease-in;
+	z-index:1;
+
 }
 
 
@@ -152,6 +176,8 @@ font-family: 'Playfair Display SC', serif;
 	margin-top:8vw;
 	margin-left:7vw;
 	margin-bottom:1vw;
+	z-index:1;
+
 	
   
 	
@@ -162,6 +188,8 @@ font-family: 'Playfair Display SC', serif;
    height:320px;
    
    	border-radius:50%; 
+	z-index:1;
+
 
   
 }
@@ -174,6 +202,9 @@ font-family: 'Playfair Display SC', serif;
     margin-top:10vw;
 	width:60vw;
 	height:350px;
+	margin-bottom:6vw;
+	z-index:1;
+
 	
 		
 
@@ -187,6 +218,8 @@ font-family: 'Playfair Display SC', serif;
 	padding-bottom:0px;
 	padding-left:0px;
     margin-top:4vw;
+	z-index:1;
+
 		
 
 	
@@ -200,6 +233,8 @@ h1
     text-align:center;
 	transition:.5s ease-in;
 	margin-bottom:0px;
+	z-index:1;
+
 
 
 	
@@ -223,19 +258,19 @@ h1:hover
 	color:#31AAC1;
 	margin-bottom:1vw;
 	margin-top:.2vw;
+	z-index:1;
+
 		 	
 
 }
 .line:nth-child(2)
 {   
-	padding-bottom:30vw;
+	height:30vh;
+
 	padding-top:0px;
 	font-size:.7rem;
+	z-index:1;
 
-	margin-bottom:0px;
-
-   	 
-		 	
 
 }
 
@@ -245,6 +280,36 @@ h1:hover
 	color:#008081;
 	
 }
+
+.victoria-one 
+{
+	color:white;
+	border:2px solid  #D24D57;
+	padding-top:.8vw;
+	padding-bottom:.8vw;
+	padding-left:1.7vw;
+	padding-right:1.7vw;
+    margin-left:.5vw;
+
+
+	border-radius:23px;
+	text-decoration:none;
+	transition:all .9s ease 0s;
+	z-index:1;
+
+   
+
+
+}
+
+.victoria-one:hover
+{
+   color:white;
+   text-decoration:none;
+   background-color:#D24D57;
+  
+}
+
 
 
 .heading-2
@@ -260,9 +325,16 @@ h1:hover
      border-bottom:1px solid transparent;
      border-image:linear-gradient(45deg,black,#ff0,#f0f,#00f,#0f0,black);
      border-image-slice:1;
+	z-index:1;
+
 
 
     
+}
+
+.intro-container
+{
+	z-index:1;
 }
 
 .name
@@ -276,6 +348,8 @@ h1:hover
 	width:100%;
 	margin-bottom:0px;
 	letter-spacing:.4vw
+	z-index:1;
+
 	
 	
 }
@@ -292,7 +366,8 @@ h1:hover
 	opacity:.7;
 	padding-top:0px;
     text-align:justify;
-
+	z-index:1;
+   
 }
 
 .interest-container
@@ -539,18 +614,20 @@ figcaption
 .footer-img
 {
 	height:9vh;
+	margin-bottom:2vw;
 }
 
 .logo-bottom
 {
-	margin-top:2vw;
+	margin-top:3vw;
+
 }
 
 .quote
 {
 	color:#7852A9;
 	  font-family: 'Montserrat Alternates', sans-serif;
-	 margin-bottom:3vw;
+	 margin-bottom:2vw;
 	 font-size:1rem;
 	 margin-top:1.5vw;
 }
@@ -605,6 +682,20 @@ figcaption
 	opacity:.7;
 }
 
+.icon
+{
+	width:40px;
+	height:40px;
+	margin-right:10px;
+	margin-top:1vw;
+   margin-bottom:10px;
+	border-radius:50%;
+	transition:.5s ease-out ;
+
+}
+
+
+
 .copyright
 {
    
@@ -614,6 +705,19 @@ figcaption
    font-size:.7rem;
 }
 
+
+.wink
+{
+	top:0px;
+	width:20px;
+	height:20px;
+	padding-bottom:3px;
+}
+
+.c1
+{
+	margin-left:.7vw;
+}
 .box
 {
 	
