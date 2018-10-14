@@ -26,9 +26,10 @@
 
 #particles-js
 {
-	position:absolute;
+	position:fixed;
+	/*position:absolute;*/
 	top:0;
-	height:120vh;
+	height:100%;
 	width:95vw;
 	background-color:#2b2b2b;
 	z-index:0;
@@ -43,7 +44,7 @@
 	position:fixed;
 	float:left;
 	margin-left:0px;
-	margin-top:1.5vw;
+	margin-top:1vw;
 	align-self: left;
 	z-index:1;
 	
@@ -68,7 +69,7 @@
 .navbar-container {
 	display: flex;
 	flex-wrap: wrap;
-	z-index:2;
+	z-index:7;
    
 
 }
@@ -109,7 +110,9 @@
 	color: inherit;
 	text-decoration: none;
 	padding: 10px 10px;
-	font-size: 0.8rem;
+		font-size: 0.6rem;
+	margin-right:1vw;
+
 }
 
 
@@ -127,7 +130,7 @@
 {
 letter-spacing:2px;
 font-weight:lighter;
-font-family: 'Playfair Display SC', serif;
+
  transition: .3s ease-in;
 
 }
@@ -378,25 +381,26 @@ h1:hover
 	height:400px;
 	margin-right: 4vw;
     margin-left:4vw;
-    background-color:#444444;
+   
     margin-bottom:1vw;
     border-radius:25px;
-  box-shadow:0 25px 65px rgba(0,0,0,0.8);
+    z-index:1;
+    
+  box-shadow:0px 6px 80px rgba(0,0,0,0.8);
   transition:.5s
 
     
 }
 
-
 .nested-interest-container
 {   
       
     margin-bottom:1vw; 
-	background-color:#444444;
     margin-top:1vw;
 	display:flex;
 	flex-wrap:wrap;
-	
+
+	z-index:1;
 }
 
 
@@ -409,6 +413,7 @@ h1:hover
     font-family: 'Montserrat Alternates', sans-serif;
 	font-size:1.2rem;
 	color:white;
+  z-index:1;
     transition:1s ease-out;	
 }
 
@@ -429,6 +434,7 @@ h1:hover
    border-radius: 50%;
    margin-bottom:3vw;
    margin-left:12vw;
+z-index:1;
    border:7px #6fc0ab inset;
 
 }
@@ -465,6 +471,7 @@ figcaption
 	text-align:center;
 	justify-content: center;
     align-items: center;
+
 }
 
 .container
@@ -474,6 +481,7 @@ figcaption
 	margin-bottom:4vw;
 	background-color:#444444;
 	border-radius:25px;
+	z-index:1;
     box-shadow:0 25px 65px rgba(0,0,0,0.8);
 }
 
@@ -608,6 +616,7 @@ figcaption
 	width:100%;
 	background-image:url("Black.jpg");
 	background-size:cover;
+	z-index:1;
 }
 
 

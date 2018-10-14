@@ -7,7 +7,9 @@
     }
 
 
-    .profile-image
+
+    
+   .profile-image
     {
       width:370px;
       height:370px;
@@ -114,6 +116,8 @@
 {
   
 
+  
+
     .project-icon
   {
     display:none;
@@ -180,6 +184,9 @@
 
 @media (max-width:1197px)
 {
+
+    
+
 
     .profile-container
     {
