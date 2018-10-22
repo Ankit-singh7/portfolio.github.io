@@ -60,26 +60,6 @@
 
 }
 
-@media(min-width:1199px) and (max-width:1365px) 
-{
- 
-
-    .link-foot-2
-    {
-      margin-top:15.4vw;
-    }
-
-
-   
-    .link-foot-3
-    {
-      margin-top:12vw;
-    }
-
-
-
-
-}
 
 
 
@@ -1021,28 +1001,6 @@
         }
 
 
-
-
-  }
-
-
-  @media(min-width:320px)
-
-  {
-
-    .link-foot-1
-    {
-      margin-bottom:3vw;
-    }
-
-    .link-foot-1
-    {
-      margin-bottom:6vw;
-    }
-    .link-foot-1
-    {
-      margin-bottom:3vw;
-    }
 
 
   }
