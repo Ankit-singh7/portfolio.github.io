@@ -378,7 +378,7 @@ h1
     padding-left:1vw;
     padding-right:1vw;
 	color:white;
-	font-size:.5rem;
+	font-size:.8rem;
 	font-family: 'Noto Serif', serif;
 	
 	opacity:.7;
@@ -856,7 +856,49 @@ figcaption
 	width:20px;
 	height:20px;
 	padding-bottom:3px;
+   animation-name: wink;
+   animation-duration: 1s;
+   
+
+   animation-iteration-count: infinite;
+   
 }
+
+@keyframes wink
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+
+	25%
+	{
+		transform:rotate(90deg);
+	}
+
+    50%
+	{
+		transform:rotate(90deg);
+	}
+
+	75%
+	{
+		transform:rotate(90deg);
+	}
+
+	100%
+	{
+		transform:rotate(90deg);
+	}
+}
+
+/*.wink:hover
+{
+	transform: rotate(360deg);
+}*/
+
+
+
 
 .c1
 {
