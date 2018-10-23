@@ -161,12 +161,10 @@
 
 .profile-container {
 
-	align: center;
+	
 
 	background-size: cover;
 
-	self-align: center;
-	self-justify: center;
 	margin-top: 8vw;
 	margin-left: 7vw;
 	margin-bottom: 1vw;
@@ -251,7 +249,9 @@ h1 {
 
 
 
+
 .line:nth-child(1) {
+
 	font-family: 'Monoton', cursive;
 	letter-spacing: .7vw;
 	font-size: .9rem;
