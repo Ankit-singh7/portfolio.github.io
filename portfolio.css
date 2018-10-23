@@ -24,7 +24,7 @@
 
 #particles-js {
 	position: fixed;
-	/*position:absolute;*/
+
 	top: 0;
 	height: 96%;
 	width: 95vw;
@@ -820,12 +820,6 @@ figcaption {
 		transform: rotate(90deg);
 	}
 }
-
-/*.wink:hover
-{
-	transform: rotate(360deg);
-}*/
-
 
 
 
