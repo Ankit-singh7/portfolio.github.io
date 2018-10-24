@@ -178,7 +178,7 @@
 .profile-image {
 	width: 320px;
 	height: 320px;
-
+    border:6px solid #444444;
 	border-radius: 50%;
 	z-index: 1;
 
