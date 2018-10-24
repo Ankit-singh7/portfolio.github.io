@@ -231,21 +231,7 @@ h1 {
 
 }
 
-@keyframes heading {
 
-
-	25% {
-		text-shadow: 0 0 30px #008081;
-
-	}
-
-
-
-	75% {
-		text-shadow: 0 0 30px #008081;
-	}
-
-}
 
 
 
@@ -555,7 +541,10 @@ figcaption {
 	width: 0px;
 	font-size: .7rem;
 	transition: .3s ease-in;
+	
 }
+
+
 
 
 
