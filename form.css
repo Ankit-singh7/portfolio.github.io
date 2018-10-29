@@ -76,3 +76,45 @@ h3
 
 
 }
+
+.today
+{
+	color:green;
+    transition:1s;
+	animation-name:today;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes today {
+
+	0% {
+		
+		opacity: .5;
+	}
+
+	25% {
+		
+		opacity: 1;
+
+	}
+
+	50% {
+		
+		opacity: .5;
+	}
+
+	75% {
+		
+		opacity: 1;
+	}
+
+	100% {
+		
+		opacity: .5;
+	}
+
+
+
+
+}
