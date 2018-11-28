@@ -598,7 +598,7 @@ figcaption {
 	background: transparent;
 
 	box-shadow: none;
-	margin-bottom: 20px;
+	/*margin-bottom: 20px;*/
 	border-top: 80px;
 	align-items: center;
 	align-content: center;
@@ -812,6 +812,7 @@ figcaption {
 
 
 
+
 .c1 {
 	margin-left: .7vw;
 }
@@ -870,114 +871,3 @@ figcaption {
    animation-duration: .5s;
    animation-iteration-count: infinite;
 }
-
-@keyframes eat {
-
-
-	0%
-	{
-		transform:scale(1.1);
-
-	}
-
-	100%
-	{
-		transform:scale(1.1);
-
-	}
-}
-
-.sleep
-{
-	animation-name:sleep;
-	 animation-duration: .5s;
-	 animation-iteration-count: infinite;
-
-}
-
-@keyframes sleep{
-	  
-	0%
-	{
-		transform:scale(1);
-
-	}
-
-	10%
-	{
-		transform:scale(1.1);
-
-	}
-
-	100%
-	{
-		transform:scale(1.1);
-
-	}
-}
-
-.code
-{
-	animation-name:code;
-	 animation-duration: .5s;
-	 animation-iteration-count: infinite;
-
-}
-
-@keyframes code {
-
-	
-    
-	0%
-	{
-		transform:scale(1);
-
-	}
-
-
-	20%
-	{
-		transform:scale(1.1);
-
-	}
-
-	100%
-	{
-		transform:scale(1.1);
-
-	}
-
-}
-
-.repeat
-{
-	animation-name:rep;
-	 animation-duration: .5s;
-	 animation-iteration-count: infinite;
-
-}
-
-
-@keyframes  rep {
-
-	
-	0%
-	{
-		transform:scale(1);
-
-	}
-
-	30%
-	{
-		transform:scale(1.1);
-
-	}
-
-	100%
-	{
-		transform:scale(1.1);
-
-	}
-
-}
-

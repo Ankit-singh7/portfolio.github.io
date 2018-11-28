@@ -79,7 +79,7 @@ h3
 
 .today
 {
-	color:green;
+	color:orange;
     transition:1s;
 	animation-name:today;
 	animation-duration: 1s;
@@ -118,3 +118,19 @@ h3
 
 
 }
+
+.btn
+{
+	width:100px;
+	border-radius:20px;
+	background: #2B2B2B;
+	border-color:#00B2FF;
+	
+}
+
+.help-block
+{
+	color:red;
+	font-weight:lighter;
+}
+
