@@ -52,7 +52,7 @@ $(function(){
 
 });
 
-/*$(document).ready(function() {
+$(document).ready(function() {
   $('#register-form').submit(function(e) {
    
       $.ajax({
@@ -66,4 +66,4 @@ $(function(){
       alertify.success("Message sent");
     
   });
-});*/
+});
