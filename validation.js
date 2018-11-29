@@ -19,35 +19,51 @@ $(function(){
 		}
 	});
 
+
 	$("#register-form").validate(
 	{
 		rules:{
-			email:
+			_replyto:
 			{
 				required:true,
-				email:true
+				email:true,
+				
 			},
 			client:
 			{
 				required:true,
-				//nowhitespace:true,
 				lettersonly:true
 			}
 		},
 
 		messages:{
 		
-			email:
+			_replyto:
 			{
 				required:'Please enter an email address.',
-				email: 'Please enter a <em>valid</em> email address.'
+				email: 'Please enter a <em>valid</em> email address. e.g <em>tonyStark@gmail.com</em>'
 			},
 			client:
 			{
 				required:'what should i call you?'
-
-			}
+            }
 		}
 	});
 
 });
+
+/*$(document).ready(function() {
+  $('#register-form').submit(function(e) {
+   
+      $.ajax({
+        method: 'POST',
+        url: '//forms.brace.io/fliiiwithme@gmail.com',
+        data: $('#register-form').serialize(),
+        datatype: 'json'
+      });
+      e.preventDefault();
+      $(this).get(0).reset();
+      alertify.success("Message sent");
+    
+  });
+});*/
