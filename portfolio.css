@@ -225,9 +225,9 @@ h1 {
 	transition: .5s ease-in;
 	margin-bottom: 0px;
 	z-index: 1;
-	animation-name: heading;
-	animation-duration: .3s;
-	animation-iteration-count: infinite;
+	
+	
+
 
 }
 
