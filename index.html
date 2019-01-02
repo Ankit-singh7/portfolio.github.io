@@ -1,25 +1,29 @@
 <!doctype html>
+<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
 
 <head>
 	<title>@nk!t $!ngh | Full Stack Developer </title>
-	<link rel="icon" href="Log3.png">
+	<link rel="icon" href="images/Log3.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0,
 user-scalable=no">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 	 crossorigin="anonymous">
-	   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css_files/aos.css" />
 	<link rel="StyleSheet" type="text/css" href="portfolio.css">
-	<link rel="StyleSheet" type="text/css" href="media.css">
+	<link rel="StyleSheet" type="text/css" href="css_files/media.css">
 </head>
 
 <body>
 	<div class="container-div">
 
+		<!--Navbar section-->
+
 		<div class="header-section">
 			<nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#262626; border-bottom:2px solid transparent;
                                  border-image:linear-gradient(45deg,black,#31AAC1,white,#008081,black,black); border-image-slice:1">
 				<a class="navbar-brand" href="index.html">
-					<img src="Log3.png" class="logo " alt="Responsive image"></a>
+					<img src="images/Log3.png" class="logo " alt="Responsive image"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" style="border:none"
 				 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -29,19 +33,23 @@ user-scalable=no">
 					<ul class="navbar-nav">
 
 						<li class="nav-item active">
-							<a class="nav-link " href="index.html">HOME</a>
+							<a class="nav-link scrolly " href="images/Resume.png">RESUME</a>
 						</li>
 
 						<li class="nav-item active">
-							<a class="nav-link" href="#project">PROJECTS</a>
+							<a class="nav-link scrolly" href="index.html">HOME</a>
 						</li>
 
 						<li class="nav-item active">
-							<a class="nav-link" href="#heading-2">ABOUT ME</a>
+							<a class="nav-link scrolly" href="#project">PROJECTS</a>
 						</li>
 
 						<li class="nav-item active">
-							<a class="nav-link" href="#contact">CONTACT</a>
+							<a class="nav-link scrolly" href="#about_me">ABOUT ME</a>
+						</li>
+
+						<li class="nav-item active">
+							<a class="nav-link scrolly" href="#contact">CONTACT</a>
 						</li>
 
 					</ul>
@@ -51,11 +59,20 @@ user-scalable=no">
 
 		</div>
 
+		<!--navbar section ends-->
+
+
+		<!--This div is for the dynamic background-->
 		<div id="particles-js"> </div>
 
+		<!--profile picture div-->
+		<div class="profile-container animated swing delay-1s"><img class="profile-image" src="images/Myprofile.jpg">
 
-		<div class="profile-container animated swing delay-1s"><img class="profile-image" src="Myprofile.jpg"></div>
+		</div>
+		<!--profile picture div ends-->
 
+
+		<!--Right div besides profile picture div-->
 		<div class="name-container">
 
 			<div class="heading">
@@ -67,7 +84,8 @@ user-scalable=no">
 
 			<div>
 
-				<p class="line animated flip ">Hi<span style="color:#7ef9ff;font-size:30px">!</span> I am <span style="color:#31AAC1 "> Ankit</span>
+				<p class="line animated flip ">Hi<span style="color:#7ef9ff;font-size:30px">!</span> I am <span style="color:#31AAC1 ">
+						Ankit</span>
 				</p>
 				<p class="line animated bounceInRight delay-.1s"><span style="color:#31AAC1;fontsize:30px">#</span>LOVE<span class="two">2</span>CODE<br><br>
 					<a href="form.html" class="victoria-one ">Say Hello</a></p>
@@ -76,149 +94,173 @@ user-scalable=no">
 
 		</div>
 
-		<a name="heading-2">
-			<div class="intro-container">
+		<a name="about_me">
+			<!--introduction div-->
+			<div class="intro-container" data-aos="fade-up">
 
 
+
+				<h2 class="heading-2"> about<span style="color:cyan;font-size:40px">M</span>e</h2>
+
+
+
+
+
+				<div class="Introduction-container">
+
+					<p class="paragraph" style="padding:13px"> a technology enthusiast with keen interest in problem solving and
+						development.
+						Looking for a challenging career and be a part of progressive organization that gives a scope to enhance my
+						knowledge and utilizing my skills towards the growth of the organization.Currently enhancing my skills with a
+						course on Full Stack Web Development with MEAN.This unforgettable project marks the start of my web development
+						career. </p>
+
+				</div>
+				<!--introduction div ends-->
+			</div>
 		</a>
-		<h2 class="heading-2"> about<span style="color:cyan;font-size:40px">M</span>e</h2>
+		<!--div ends-->
+
+		<!--Area of interest div-->
+		<div class="interest-container line" data-aos="fade-left">
 
 
+			<h3 class="heading-3 ">Areas of Interest </h3>
 
+			<div class="nested-interest-container">
 
+				<div class="interest-icon">
 
-		<div class="Introduction-container">
+					<figure> <img src="">
 
-			<p class="paragraph" style="padding:13px"> a technology enthusiast with keen interest in problem solving and
-				development.
-				Looking for a challenging career and be a part of progressive organization that gives a scope to enhance my
-				knowledge and utilizing my skills towards the growth of the organization.Currently enhancing my skills with a
-				course on Full Stack Web Development with MEAN.This unforgettable project marks the start of my web development
-				career. </p>
+						<figcaption>Software development</figcaption>
+
+					</figure>
+
+				</div>
+
+				<div class="interest-icon">
+
+					<figure><img src="">
+
+						<figcaption>web development</figcaption>
+
+					</figure>
+
+				</div>
+
+				<div class="interest-icon">
+
+					<figure><img src="">
+
+						<figcaption>web design</figcaption>
+
+					</figure>
+
+				</div>
+
+			</div>
 
 		</div>
+
+		<!--Area of interest div ends-->
+
+
+		<!--project div-->
+		<a name="project">
+
+			<div class="container">
+		</a>
+
+		<h3 class="project-title">My Recent Work</h3>
+
+		<div class="row">
+
+			<div class="col-12  col-md-5  col-xl-4 offset-xl-1 box box1 " data-aos="flip-up">
+
+				<h3 class="h3">portfolio</h3>
+				<hr>
+
+				<p class="paragraph">
+					Tech Stack: HTML, CSS3 ,flexbox </p>
+
+
+				<div class="link-div link-foot-1"> <a class="a1" href="index.html">visit</a></div>
+			</div>
+
+
+			<div class="col-12  col-md-5 offset-md-2 col-xl-4 offset-xl-2 box box2" data-aos="flip-down">
+
+				<h3 class="h3">Blog-app</h3>
+				<hr>
+
+				<p class="paragraph">
+					Tech Stack: angular,HTML, CSS3,JS.</p>
+				<div class="link-div link-foot-3"><a class="a1" href="https://ankit-singh7.github.io/blog-app/">visit</a></div>
+
+			</div>
+
+			<div class="col-12  col-md-5 offset-md-2 col-xl-4 offset-xl-1 box box3" data-aos="flip-down">
+
+				<h3 class="h3">chat-app</h3>
+				<hr>
+
+				<p class="paragraph">
+					Tech Stack: angular,HTML, CSS3,JS.</p>
+				<div class="link-div link-foot-3"><a class="a1" href="https://ankit-singh7.github.io/chat-app/">visit</a></div>
+
+			</div>
+
+			<div class="col-12  col-md-5 offset-md-2 col-xl-4 offset-xl-2 box box1" data-aos="flip-down">
+
+				<h3 class="h3">Game of thrones</h3>
+				<hr>
+
+				<p class="paragraph">
+					Tech Stack: angular,HTML, CSS3,JS.</p>
+				<div class="link-div link-foot-3"><a class="a1" href="https://ankit-singh7.github.io/Gameofthrones/">visit</a></div>
+
+			</div>
+
+			<div class="col-12  col-md-5 col-xl-4 offset-xl-1 box box2" data-aos="flip-up">
+
+				<h3 class="h3">converter</h3>
+				<hr>
+
+				<p class="paragraph">
+					Tech Stack: HTML, CSS3,JS.</p>
+				<div class="link-div link-foot-3"><a class="a1" href="html_files/converter.html">visit</a></div>
+
+			</div>
+
+
+			<div class="col-12   col-md-5 offset-md-2 col-xl-4 offset-xl-2 box box3" data-aos="flip-up">
+
+				<h3 class="h3">calculator</h3>
+				<hr>
+
+				<p class="paragraph">
+					Tech Stack: HTML, CSS3,JS.</p>
+
+				<div class=" link-div link-foot-2"><a class="a1" href="html_files/jscalculator.html">visit</a></div>
+
+
+
+			</div>
+
+
+		</div>
+
 	</div>
 
-	<div class="interest-container line">
+	<!--project div ends-->
 
 
-		<h3 class="heading-3 ">Interests in </h3>
 
-		<div class="nested-interest-container">
 
-			<div class="interest-icon">
 
-				<figure> <img src="">
 
-					<figcaption>Software development</figcaption>
-
-				</figure>
-
-			</div>
-
-			<div class="interest-icon">
-
-				<figure><img src="">
-
-					<figcaption>web development</figcaption>
-
-				</figure>
-
-			</div>
-
-			<div class="interest-icon">
-
-				<figure><img src="">
-
-					<figcaption>web design</figcaption>
-
-				</figure>
-
-			</div>
-
-		</div>
-
-	</div>
-
-	<a name="project">
-
-		<div class="container">
-
-			<h3 class="project-title">My Recent Work</h3>
-
-			<div class="row">
-
-				<div class="col-12  col-md-5  col-xl-4 offset-xl-1 box box1">
-
-					<h3 class="h3">portfolio</h3>
-					<hr>
-
-					<p class="paragraph">
-						Tech Stack: HTML, CSS3 ,flexbox </p>
-
-
-					<div class="link-div link-foot-1"> <a class="a1" href="index.html">visit</a></div>
-				</div>
-
-
-
-
-
-
-				<div class="col-12   col-md-5 offset-md-2 col-xl-4 offset-xl-2 box box2">
-
-					<h3 class="h3">calculator</h3>
-					<hr>
-
-					<p class="paragraph">
-						Tech Stack: HTML, CSS3,JS.</p>
-
-					<div class=" link-div link-foot-2"><a class="a1" href="jscalculator.html">visit</a></div>
-
-
-
-				</div>
-
-
-
-
-
-
-
-				<div class="col-12  col-md-5 col-xl-4 offset-xl-1 box box3">
-
-					<h3 class="h3">converter</h3>
-					<hr>
-
-					<p class="paragraph">
-						Tech Stack: HTML, CSS3,JS.</p>
-					<div class="link-div link-foot-3"><a class="a1" href="converter.html">visit</a></div>
-
-				</div>
-
-				<div class="col-12  col-md-5 offset-md-2 col-xl-4 offset-xl-2 box box3">
-
-					<h3 class="h3">Blog-app</h3>
-					<hr>
-
-					<p class="paragraph">
-						Tech Stack: angular,HTML, CSS3,JS.</p>
-					<div class="link-div link-foot-3"><a class="a1" href="https://ankit-singh7.github.io/blog-app/">visit</a></div>
-
-				</div>
-
-
-
-
-			</div>
-		</div>
-
-
-
-	</a>
-
-
-
+	<!--skills div-->
 	<div class="container skills-container">
 		<div class="row">
 
@@ -227,7 +269,7 @@ user-scalable=no">
 
 
 
-			<div class="col-12 col-lg-5 col-xl-5   skills-icon">
+			<div class="col-12 col-lg-5 col-xl-5   skills-icon" data-aos="zoom-in-right">
 
 				<h4 class="skills-heading">Skills</h4>
 
@@ -315,53 +357,68 @@ user-scalable=no">
 
 			</div>
 
+
+
+			<!--Image beside skill div-->
+
 			<div class="col-12 col-lg-6 col-xl-6 offset-lg-1 image-collage">
-				<img src="Prog2.png" class="img-fluid image-collage" alt="Responsive image">
+				<img src="images/Prog2.png" class="img-fluid image-collage" alt="Responsive image">
+				<!--image beside skill div ends-->
 
 			</div>
 
 		</div>
 	</div>
-   
 
-	<a name="contact">
-		<div class="contact-footer">
+	<!--skills div ends-->
 
-			<div class="footer-img"> <img src="Log3.png" class="logo-bottom"></div>
-			<h5 class="quote"><span class="eat"> Eat</span>,<span class="sleep">Sleep</span>,<span class="code">Code</span>,<span class="repeat">Repeat</span>...</h5>
 
-			<img src="mail.png" class="icon  ">
+	<!--contact div-->
+	<div class="contact-footer" data-aos="fade-right">
+
+		<a name="contact">
+			<div class="footer-img"> <img src="images/Log3.png" class="logo-bottom"></div>
+			<h5 class="quote"><span class="eat"> Eat</span>,<span class="sleep">Sleep</span>,<span class="code">Code</span>,<span
+				 class="repeat">Repeat</span>...</h5>
+
+			<img src="images/mail.png" class="icon  ">
 			<h4 class="contact-headings">SEND ME AN E-MAIL</h4>
 			<h5 class="contact-information">ankit.as2307@gmail.com</h5>
-			<img src="phone.png" class="icon ">
+			<img src="images/phone.png" class="icon ">
 
 			<h4 class="contact-headings">CALL ME AT</h4>
 			<h5 class="contact-information">mobile: 9051760235</h5>
-			<div class="social-icon"><a href=" https://www.linkedin.com/in/ankit-singh-04b976165/"><img src="Linkedin.png" class="social"></a>
-				<a href=""><img src="Twitter.png" class="social disabled"></a>
-				<a href=""><img src="Instagram.png" class="social"></a>
-				<a href="https://github.com/Ankit-singh7"><img src="Github.png" class="social"></a>
+			<div class="social-icon"><a href=" https://www.linkedin.com/in/ankit-singh-04b976165/"><img src="images/Linkedin.png"
+					 class="social"></a>
+				<a href=""><img src="images/Twitter.png" class="social disabled"></a>
+				<a href=""><img src="images/Instagram.png" class="social"></a>
+				<a href="https://github.com/Ankit-singh7"><img src="images/Github.png" class="social"></a>
 			</div>
 
 
 			<p class="copyright">Handcrafted by me &copy; twentyeighteen</p>
-			<p class="copyright c1">Made in INDIA &nbsp &nbsp<img src="wink.png" class="wink"></p>
+			<p class="copyright c1">Made in INDIA &nbsp &nbsp<img src="images/wink.png" class="wink"></p>
+
+		</a>
+
+	</div>
+	<!--contact div ends-->
 
 
-
-
-		</div>
-	</a>
 
 
 	</div>
 	</div>
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-	 crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-	 crossorigin="anonymous"></script>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 	 crossorigin="anonymous"></script>
+	<script src="js_files/aos.js"></script>
+	<script>
+		AOS.init({
+			duration: 1500
+		});
+	</script>
 	<script type="text/javascript">
 		let myFunction = () => {
 			let x = document.getElementById("navbar-id");
@@ -373,11 +430,11 @@ user-scalable=no">
 				x.className = "navbar";
 				y.className = "fa fa-bars fa-lg";
 			}
-		}
+		};
 	</script>
 
-	<script src="particles.js"></script>
-	<script src="app.js"></script>
+	<script src="js_files/particles.js"></script>
+	<script src="js_files/app.js"></script>
 </body>
 
 </html>

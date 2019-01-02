@@ -94,6 +94,8 @@
 
 
 
+
+
 .navbar li.active {
 
 	color: white;
@@ -217,7 +219,7 @@
 }
 
 h1 {
-	letter-spacing: 2vw;
+	letter-spacing: 1.5vw;
 	font-weight: bold;
 	font-family: 'M PLUS 1p', sans-serif;
 	font-size: 1.9rem;
@@ -411,48 +413,24 @@ h1 {
 	margin-left: 12vw;
 	z-index: 1;
 	border: 7px solid #D24D57;
-	animation-name: interest;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-	animation-delay: 0s;
+	
 
 }
 
-@keyframes interest {
-	0% {
-		border-bottom: 7px solid #D24D57;
-	}
 
-	25% {
-		border-left: 7px solid #bf0a30;
-	}
-
-	50% {
-		border-top: 7px solid #bf0a30;
-	}
-
-	75% {
-		border-right: 7px solid #bf0a30;
-	}
-
-
-
-	100% {
-		border-bottom: 7px solid #bf0a30;
-	}
-}
+	
 
 
 .interest-icon:nth-child(1) {
-	background-image: url("Software.png");
+	background-image: url("images2/Software.png");
 }
 
 .interest-icon:nth-child(2) {
-	background-image: url("Web.jpeg");
+	background-image: url("images2/Web.jpeg");
 }
 
 .interest-icon:nth-child(3) {
-	background-image: url("Design.jpg");
+	background-image: url("images2/Design.jpg");
 }
 
 
@@ -716,6 +694,18 @@ figcaption {
 	z-index: 1;
 }
 
+.contact-footer:before
+{
+	position:relative;
+	top:50%;
+	content:'';
+	width:60%;
+	height:120px;
+	transform: skewY(10deg);
+	background-color: black;
+
+}
+
 
 .contact-headings {
 	padding-top: 10px;
@@ -841,7 +831,7 @@ figcaption {
 
 .box1 {
 
-	background-image: url("back.jpg");
+	background-image: url("images2/back.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -849,7 +839,7 @@ figcaption {
 }
 
 .box2 {
-	background-image: url("back2.jpg");
+	background-image: url("images2/back2.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -857,7 +847,7 @@ figcaption {
 }
 
 .box3 {
-	background-image: url("back3.jpg");
+	background-image: url("images2/back3.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;

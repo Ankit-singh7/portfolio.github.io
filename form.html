@@ -3,17 +3,18 @@
 
 <head>
 	<title>@nk!t $!ngh | Full Stack Developer </title>
-	<link rel="icon" href="Log3.png">
+	<link rel="icon" href="images/Log3.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0,
 user-scalable=no">
+
 
 	<link rel="stylesheet" href="bootcss/bootstrap.min.css">
 
 
 	 <link rel="stylesheet" href="jquery-ui/jquery-ui.min.css">
-	 	
-
-	 <link rel="stylesheet" href="form.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	     <link rel="stylesheet"  type="text/css" href="css_files/aos.css" />
+	 <link rel="stylesheet" href="css_files/form.css">
 	 </head>
 
 	 <body>
@@ -23,11 +24,11 @@ user-scalable=no">
 	 		<div class="row  m-0 header">
 	 			<div col-sm-10 style="width:100%">
 	 				<a  href="index.html">
-					<img src="Log3.png" class="logo" alt="Responsive image"></a>
+					<img src="images/Log3.png" class="logo" alt="Responsive image"></a>
 				
 		
                     <a  href="index.html">
-					<img src="cancel.png" class="cancel" alt="Responsive image"></a>
+					<img src="images/cancel.png" class="cancel" alt="Responsive image"></a>
 					</div>
 					
 
@@ -42,13 +43,13 @@ user-scalable=no">
 
 					<div class="col-sm">
 						
-					   <h3 class="form-signin-heading text-align " >Thanks for taking the time to reach out.<br> 
+					   <h3 class="form-signin-heading text-align animated bounceInDown delay-.1s    " >Thanks for taking the time to reach out.<br> 
 							What can I do for you today <span class="today">?</span>
 					   </h3>
 					   <br>
 
 				
-				<form class="form-horizontal" id="register-form" method ="POST" action="https://formspree.io/ankit.as2307@gmail.com">  
+				<form class="form-horizontal" id="register-form" method ="POST" action="https://formspree.io/ankit.as2307@gmail.com" data-aos="fade-right">  
 				 
 				   <div class="form-group col-md-12 ">
                   <label for="name:"><span style="color:white">name:</span></label>
@@ -70,8 +71,8 @@ user-scalable=no">
                    
            <!--     <input type="hidden" name="_next" value="thankyou.html" />-->
                  
-                 <div class="form-group col-md-12">
-                  <button  class="btn btn-primary " type="submit" onclick=" " ><span class="button">send</span></button>
+                 <div class="form-group col-md-12 animated zoomIn delay-1s">
+                  <button  class="btn btn-primary  " type="submit" onclick=" " ><span class="button">send</span></button>
               </div>
               </form>
 
@@ -112,6 +113,12 @@ user-scalable=no">
 	    crossorigin="anonymous"></script>
 	    <script src="bootjs/bootstrap.min.js"></script>
 	    <script src="validation.js"></script>
+	     <script src="js_files/aos.js"></script>
+    <script>
+      AOS.init({
+      	duration:500
+      });
+    </script>
 	       
 	 
 	 </body>
